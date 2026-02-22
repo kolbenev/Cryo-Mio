@@ -1,574 +1,864 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
+  <head>
+    <title>Cryo Mio</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- стили -->
+    <link rel="stylesheet" href="css/style.min.css?_v=20260222141526" />
+    <!-- фавикон -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-<head>
-	<title>Cryo Mio</title>
-	<meta charset="UTF-8">
-	<meta name="format-detection" content="telephone=no">
-	<!-- стили -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20260222141526">
-	<!-- фавикон -->
-	<link rel="shortcut icon" href="favicon.ico">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <body>
+    <div class="wrapper">
+      <header data-lp class="header">
+        <div class="header__container">
+          <a
+            data-goto-header
+            data-goto=".wrapper"
+            href="#"
+            class="header__logo"
+          >
+            <img src="img/logo.svg" alt="Логотип Cryo Mio" />
+          </a>
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a
+                  data-goto-header
+                  data-goto=".about"
+                  href="#"
+                  class="menu__link"
+                  >О нас</a
+                >
+              </li>
+              <li class="menu__item">
+                <a
+                  data-goto-header
+                  data-goto=".program"
+                  href="#"
+                  class="menu__link"
+                  >Программы</a
+                >
+              </li>
+              <li class="menu__item">
+                <a
+                  data-goto-header
+                  data-goto=".offer"
+                  href="#"
+                  class="menu__link"
+                  >Акции</a
+                >
+              </li>
+              <li class="menu__item">
+                <a
+                  data-goto-header
+                  data-goto=".contacts"
+                  href="#"
+                  class="menu__link"
+                  >Контакты</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <a href="tel:+79257350939" class="header__tel">+7 925 735-09-39</a>
+          <button type="button" class="header__burger burger-menu">
+            <span></span>
+          </button>
+        </div>
+      </header>
+      <main>
+        <section class="hero">
+          <div class="hero__container">
+            <div class="hero__content">
+              <h1 class="hero__title">
+                Ваш верный спутник на пути
+                <i>к здоровью, красоте и жизненной силе</i>
+              </h1>
+              <div class="hero__text">
+                Салон криотерапии нового поколения в Зеленограде
+              </div>
+              <a
+                target="_blank"
+                href="https://t.me/Cryo_Mio"
+                class="hero__link hero__link--pc"
+              >
+                <span>записаться</span>
+                <svg
+                  width="79"
+                  height="12"
+                  viewBox="0 0 79 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M78.0256 5.77344L68.0256 -6.53267e-05V11.5469L78.0256 5.77344ZM0 5.77344L0 6.77344H69.0256V5.77344V4.77344H0L0 5.77344Z"
+                    fill="#544238"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="hero__media">
+              <div class="hero__image">
+                <img src="img/hero-image1.webp" alt="Cryo Mio" />
+              </div>
+              <div class="hero__image">
+                <img src="img/hero-image2.webp" alt="Cryo Mio" />
+              </div>
+              <div class="hero__image">
+                <img src="img/hero-image3.webp" alt="Cryo Mio" />
+              </div>
+            </div>
+            <a
+              target="_blank"
+              href="https://t.me/Cryo_Mio"
+              class="hero__link hero__link--mobile"
+            >
+              <span>записаться</span>
+              <svg
+                width="79"
+                height="12"
+                viewBox="0 0 79 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M78.0256 5.77344L68.0256 -6.53267e-05V11.5469L78.0256 5.77344ZM0 5.77344L0 6.77344H69.0256V5.77344V4.77344H0L0 5.77344Z"
+                  fill="#544238"
+                />
+              </svg>
+            </a>
+          </div>
+        </section>
+        <section class="about">
+          <div class="about__container">
+            <h2 class="about__title">О НАС</h2>
+            <div class="about__body">
+              <div class="about__items">
+                <div class="about__item about__item--1">
+                  <div class="about__heading">
+                    Пространство криотерапии и восстановления
+                  </div>
+                  <div class="about__desc">
+                    <p>
+                      Мы используем естественный потенциал организма, сочетая
+                      силу холода и современные методики ухода для здоровья и
+                      красоты.
+                    </p>
+                  </div>
+                </div>
+                <div class="about__item about__item--2">
+                  <div class="about__caption">ФИЛОСОФИЯ</div>
+                  <div class="about__text">
+                    <p>
+                      Для нас криотерапия — это не стресс, а комфортный ритуал
+                      заботы о себе.
+                    </p>
+                    <p>
+                      Наша цель — сохранять и приумножать здоровье и красоту.
+                    </p>
+                  </div>
+                </div>
+                <div class="about__item about__item--3">
+                  <div class="about__caption">АТМОСФЕРА</div>
+                  <div class="about__text">
+                    <p>Cryo Mio — лёгкое и дружелюбное пространство.</p>
+                    <p>
+                      Мы создаём среду, где можно расслабиться, восстановиться и
+                      уделить время себе.
+                    </p>
+                  </div>
+                </div>
+                <div class="about__item about__item--4">
+                  <div class="about__caption">ОБОРУДОВАНИЕ</div>
+                  <div class="about__text">
+                    <p>
+                      Студия оснащена современным оборудованием премиального
+                      уровня.
+                    </p>
+                    <p>
+                      Открытая криокапсула обеспечивает комфорт без ощущения
+                      замкнутого пространства.
+                    </p>
+                    <p>
+                      В работе мы используем профессиональную космецевтику,
+                      созданную врачами-экспертами.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="about__block">
+                <div class="about__slider swiper">
+                  <div class="about__wrapper swiper-wrapper">
+                    <div class="about__slide swiper-slide">
+                      <picture>
+                        <source
+                          srcset="img/slider1.webp"
+                          media="(max-width: 767px)"
+                        />
+                        <img src="img/about-image1.webp" alt="Cryo Mio" />
+                      </picture>
+                    </div>
+                    <div class="about__slide swiper-slide">
+                      <picture>
+                        <source
+                          srcset="img/slider2.webp"
+                          media="(max-width: 767px)"
+                        />
+                        <img src="img/about-image2.webp" alt="Cryo Mio" />
+                      </picture>
+                    </div>
+                    <div class="about__slide swiper-slide">
+                      <picture>
+                        <source
+                          srcset="img/slider3.webp"
+                          media="(max-width: 767px)"
+                        />
+                        <img src="img/about-image3.webp" alt="Cryo Mio" />
+                      </picture>
+                    </div>
+                    <div class="about__slide swiper-slide">
+                      <picture>
+                        <source
+                          srcset="img/slider4.webp"
+                          media="(max-width: 767px)"
+                        />
+                        <img src="img/about-image4.webp" alt="Cryo Mio" />
+                      </picture>
+                    </div>
+                    <div class="about__slide swiper-slide">
+                      <picture>
+                        <source
+                          srcset="img/slider5.webp"
+                          media="(max-width: 767px)"
+                        />
+                        <img src="img/about-image5.webp" alt="Cryo Mio" />
+                      </picture>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  class="about__prev swiper-button-prev"
+                ></button>
+                <button
+                  type="button"
+                  class="about__next swiper-button-next"
+                ></button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="offer">
+          <div class="offer__container">
+            <h2 class="offer__title">СПЕЦПРЕДЛОЖЕНИЕ</h2>
+            <div class="offer__body">
+              <div class="offer__image">
+                <img
+                  src="img/offer-image.webp"
+                  alt="Электромагнитная стимуляция мышц + RF-лифтинг"
+                />
+              </div>
+              <div class="offer__block">
+                <div class="offer__caption">EMSCULPT + RF</div>
+                <div class="offer__text">
+                  Электромагнитная стимуляция мышц + RF-лифтинг
+                </div>
+                <ul class="offer__list">
+                  <li class="offer__item">30 минут</li>
+                  <li class="offer__item">укрепление мышц и подтяжка кожи</li>
+                  <li class="offer__item">быстрый видимый результат</li>
+                </ul>
+                <div class="offer__wrap">
+                  <div class="offer__old-price">4000 ₽</div>
+                  <div class="offer__price">2000 ₽</div>
+                </div>
+              </div>
+            </div>
+            <a target="_blank" href="https://t.me/Cryo_Mio" class="offer__link">
+              <span>записаться</span>
+              <svg
+                width="79"
+                height="12"
+                viewBox="0 0 79 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M78.0256 5.77344L68.0256 -6.53267e-05V11.5469L78.0256 5.77344ZM0 5.77344L0 6.77344H69.0256V5.77344V4.77344H0L0 5.77344Z"
+                  fill="#544238"
+                />
+              </svg>
+            </a>
+          </div>
+        </section>
+        <section class="program">
+          <div class="program__container">
+            <h2 class="program__title">НАШИ ПРОГРАММЫ</h2>
+            <div data-tabs class="tabs">
+              <nav data-tabs-titles class="tabs__navigation">
+                <button type="button" class="tabs__title">криотерапия</button>
+                <button type="button" class="tabs__title _tab-active">
+                  косметология
+                </button>
+                <button type="button" class="tabs__title">
+                  коррекция фигуры
+                </button>
+                <button type="button" class="tabs__title">
+                  EMSlim терапия
+                </button>
+              </nav>
+              <div data-tabs-body class="tabs__content">
+                <div class="tabs__body">
+                  <div class="tabs__grid">
+                    <div class="tabs__column">
+                      <div class="tabs__wrap">
+                        <div class="tabs__image tabs__image--mobile">
+                          <img src="img/tabs-image2.webp" alt="Cryo Mio" />
+                        </div>
+                        <div class="tabs__caption">
+                          ОБЩАЯ КРИОТЕРАПИЯ - сеанс 3 мин
+                        </div>
+                        <div class="tabs__items">
+                          <div class="tabs__item">
+                            <div class="tabs__text">
+                              1 ознакомительная процедура
+                            </div>
+                            <div class="tabs__price">2 500 ₽</div>
+                          </div>
+                          <div class="tabs__item">
+                            <div class="tabs__text">Абонимент - 5 процедур</div>
+                            <div class="tabs__price">11 500 ₽</div>
+                          </div>
+                          <div class="tabs__item">
+                            <div class="tabs__text">
+                              Абонимент - 10 процедур
+                            </div>
+                            <div class="tabs__price">20 000 ₽</div>
+                          </div>
+                          <div class="tabs__item">
+                            <div class="tabs__text">
+                              Абонимент - 20 процедур
+                            </div>
+                            <div class="tabs__price">36 000 ₽</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tabs__wrap">
+                        <div class="tabs__caption">ЛОКАЛЬНАЯ КРИОТЕРАПИЯ</div>
+                        <div class="tabs__items">
+                          <div class="tabs__item">
+                            <div class="tabs__text">Криомассаж кожи головы</div>
+                            <div class="tabs__price">1 500 ₽</div>
+                          </div>
+                          <div class="tabs__item">
+                            <div class="tabs__text">Криомассаж лица</div>
+                            <div class="tabs__price">2 000 ₽</div>
+                          </div>
+                          <div class="tabs__item">
+                            <div class="tabs__text">
+                              Криомассаж лица с уходом
+                            </div>
+                            <div class="tabs__price">2 500 ₽</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tabs__column">
+                      <div class="tabs__wrap">
+                        <div class="tabs__image tabs__image--pc">
+                          <img src="img/tabs-image2.webp" alt="Cryo Mio" />
+                        </div>
+                        <div class="tabs__desc">
+                          <p>Имеются противопоказания.</p>
+                          <p>
+                            Необходима предварительная консультация специалиста
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__body">
+                  <div class="tabs__grid">
+                    <div class="tabs__column">
+                      <div class="tabs__wrap">
+                        <div class="tabs__image tabs__image--mobile">
+                          <img src="img/tabs-image1.webp" alt="Cryo Mio" />
+                        </div>
+                        <div class="tabs__caption">ОЧИЩЕНИЕ И ОБНОВЛЕНИЕ</div>
+                        <div class="tabs__items">
+                          <div class="tabs__item">
+                            <div class="tabs__text">
+                              Ультразвуковая чистка лица
+                            </div>
+                            <div class="tabs__price">3 000 ₽</div>
+                          </div>
+                          <div class="tabs__item">
+                            <div class="tabs__text">Вакуумный гидро-пилинг</div>
+                            <div class="tabs__price">5 000 ₽</div>
+                          </div>
+                          <div class="tabs__item">
+                            <div class="tabs__text">
+                              Гальваническая чистка лица
+                            </div>
+                            <div class="tabs__price">3 000 ₽</div>
+                          </div>
+                          <div class="tabs__item">
+                            <div class="tabs__text">
+                              Комбинированная чистка лица
+                            </div>
+                            <div class="tabs__price">6 000 ₽</div>
+                          </div>
+                          <div class="tabs__item">
+                            <div class="tabs__text">
+                              Мужская комбинированная чистка лица
+                            </div>
+                            <div class="tabs__price">7 000 ₽</div>
+                          </div>
+                          <div class="tabs__item">
+                            <div class="tabs__text">
+                              Дерматологическая чистка лица
+                            </div>
+                            <div class="tabs__price">7 000 ₽</div>
+                          </div>
+                          <a
+                            href="#"
+                            data-popup="#popup-peeling"
+                            class="tabs__item tabs__item--grey"
+                          >
+                            <div class="tabs__text">Пилинговые программы</div>
+                            <div class="tabs__price">от 4 000 ₽ ▸</div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="tabs__wrap">
+                        <div class="tabs__caption">УХОД И ВОССТАНОВЛЕНИЕ</div>
+                        <div class="tabs__items">
+                          <div class="tabs__item">
+                            <div class="tabs__text">
+                              Альгинатная маска по типу кожи
+                            </div>
+                            <div class="tabs__price">1 000 ₽</div>
+                          </div>
+                          <div class="tabs__item">
+                            <div class="tabs__text">Карбокситерапия</div>
+                            <div class="tabs__price">3 000 ₽</div>
+                          </div>
+                          <a
+                            href="#"
+                            data-popup="#popup-depilation"
+                            class="tabs__item tabs__item--grey"
+                          >
+                            <div class="tabs__text">
+                              Программы депиляции SKIN’S
+                            </div>
+                            <div class="tabs__price">от 500 ₽ ▸</div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tabs__column">
+                      <div class="tabs__wrap">
+                        <div class="tabs__caption">ЛИФТИНГ И МАССАЖ ЛИЦА</div>
+                        <div class="tabs__items">
+                          <a
+                            href="#"
+                            data-popup="#popup-massage"
+                            class="tabs__item tabs__item--grey"
+                          >
+                            <div class="tabs__text">
+                              Массажные программы для лица
+                            </div>
+                            <div class="tabs__price">от 3 500 ₽ ▸</div>
+                          </a>
+                          <div class="tabs__item">
+                            <div class="tabs__text">Микротоковая терапия</div>
+                            <div class="tabs__price">3 000 ₽</div>
+                          </div>
+                          <div class="tabs__item">
+                            <div class="tabs__text">Миостимуляция</div>
+                            <div class="tabs__price">3 000 ₽</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tabs__image tabs__image--pc">
+                        <img src="img/tabs-image1.webp" alt="Cryo Mio" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__body">
+                  <div class="tabs__grid">
+                    <div class="tabs__column">
+                      <div class="tabs__wrap">
+                        <div class="tabs__image tabs__image--mobile">
+                          <img src="img/tabs-image3.webp" alt="Cryo Mio" />
+                        </div>
+                        <div class="tabs__caption">EMSCULPT</div>
+                        <div class="tabs__items">
+                          <div class="tabs__item">
+                            <div class="tabs__text">2 зоны - 60 мин</div>
+                            <div class="tabs__price">6 000 ₽</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tabs__wrap">
+                        <div class="tabs__caption">
+                          EMSCULPT + RF – ЭЛЕКТРОМАГНИТНАЯ СТИМУЛЯЦИЯ МЫШЦ + RF
+                          ЛИФТИНГ
+                        </div>
+                        <div class="tabs__items">
+                          <div class="tabs__item">
+                            <div class="tabs__text">Один сеанс - 30 мин</div>
+                            <div class="tabs__price">2 000 ₽</div>
+                          </div>
+                          <div class="tabs__item">
+                            <div class="tabs__text">Абонимент - 5 сеансов</div>
+                            <div class="tabs__price">17 500 ₽</div>
+                          </div>
+                          <div class="tabs__item">
+                            <div class="tabs__text">Абонимент - 10 сеансов</div>
+                            <div class="tabs__price">30 000₽</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tabs__wrap">
+                        <div class="tabs__caption">
+                          SLMSPHERES – КОМПРЕССИОННО-ВИБРАЦИОННЫЙ МАССАЖ СФЕРАМИ
+                        </div>
+                        <div class="tabs__items">
+                          <div class="tabs__item">
+                            <div class="tabs__text">Лимфодренаж - 30 мин</div>
+                            <div class="tabs__price">2 000 ₽</div>
+                          </div>
+                          <div class="tabs__item">
+                            <div class="tabs__text">Один сеанс - 60 мин</div>
+                            <div class="tabs__price">3 500 ₽</div>
+                          </div>
+                          <div class="tabs__item">
+                            <div class="tabs__text">
+                              Абонимент - 10 сеансов по 60 мин
+                            </div>
+                            <div class="tabs__price">31 000 ₽</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tabs__wrap">
+                        <div class="tabs__caption">
+                          КОМБИНИРОВАННАЯ ПРОГРАММА ДЛЯ ТЕЛА
+                        </div>
+                        <div class="tabs__items">
+                          <div class="tabs__item">
+                            <div class="tabs__text">
+                              Slimspheres + EMSCULPT - 90 мин
+                            </div>
+                            <div class="tabs__price">6 500 ₽</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tabs__image tabs__image--pc">
+                      <img src="img/tabs-image3.webp" alt="Cryo Mio" />
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs__body">
+                  <div class="tabs__grid">
+                    <div class="tabs__column">
+                      <div class="tabs__wrap">
+                        <div class="tabs__image tabs__image--mobile">
+                          <img src="img/tabs-image4.webp" alt="Cryo Mio" />
+                        </div>
+                        <div class="tabs__caption">
+                          ИНТЕНСИВНАЯ ТЕРАПИЯ НА ЭЛЕКТРОМАГНИТНОМ КРЕСЛЕ EMSLIM
+                        </div>
+                        <div class="tabs__items">
+                          <div class="tabs__item">
+                            <div class="tabs__text">
+                              Укрепление мышц тазового дна
+                            </div>
+                            <div class="tabs__price">2 000 ₽</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tabs__image tabs__image--pc">
+                      <img src="img/tabs-image4.webp" alt="Cryo Mio" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              target="_blank"
+              href="https://t.me/Cryo_Mio"
+              class="program__link"
+            >
+              <span>записаться</span>
+              <svg
+                width="79"
+                height="12"
+                viewBox="0 0 79 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M78.0256 5.77344L68.0256 -6.53267e-05V11.5469L78.0256 5.77344ZM0 5.77344L0 6.77344H69.0256V5.77344V4.77344H0L0 5.77344Z"
+                  fill="#544238"
+                />
+              </svg>
+            </a>
+          </div>
+        </section>
+        <section class="contacts">
+          <div class="contacts__container">
+            <h2 class="contacts__title">КОНТАКТЫ</h2>
+            <div class="contacts__body">
+              <div class="contacts__map">
+                <iframe
+                  loading="lazy"
+                  src="https://yandex.ru/map-widget/v1/?um=constructor%3Abf4fb761b01e329d64d0443b567349c617b053e52f27984590efe8905ee3183f&amp;source=constructor"
+                  width="352"
+                  height="352"
+                ></iframe>
+              </div>
+              <div class="contacts__content">
+                <div class="contacts__box">
+                  <div class="contacts__icon">
+                    <img src="img/contacts-icon1.webp" alt="Иконка" />
+                  </div>
+                  <div class="contacts__text">г. Зеленоград, корп. 2303</div>
+                </div>
+                <div class="contacts__box">
+                  <div class="contacts__icon">
+                    <img src="img/contacts-icon2.webp" alt="Иконка" />
+                  </div>
+                  <div class="contacts__text">
+                    <p>— вт–пт - 10:00-20:00</p>
+                    <p>— сб - 10:00-19:00</p>
+                    <p>— вс, пн — по записи</p>
+                  </div>
+                </div>
+                <div class="contacts__box">
+                  <div class="contacts__icon">
+                    <img src="img/contacts-icon3.webp" alt="Иконка" />
+                  </div>
+                  <div class="contacts__text">
+                    <a href="tel:+79257350939">+ 7 925 735-09-39</a>
+                    <a href="mailto:cryomio@gmail.com">cryomio@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+              <ul class="contacts__social">
+                <li class="contacts__item">
+                  <a
+                    target="_blank"
+                    href="https://yandex.ru/maps/org/cryo_mio/121485707522?si=j0q9dxq0hcntdvn6m9aymjugf0"
+                    class="contacts__link"
+                  >
+                    <span>YandexMap</span>
+                    <svg
+                      width="78"
+                      height="9"
+                      viewBox="0 0 78 9"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.75 3.58008C0.335786 3.58008 0 3.91586 0 4.33008C0 4.74429 0.335786 5.08008 0.75 5.08008V4.33008V3.58008ZM77.75 4.33008L70.25 -4.91142e-05V8.66021L77.75 4.33008ZM0.75 4.33008V5.08008H71V4.33008V3.58008H0.75V4.33008Z"
+                        fill="#B4AAA6"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="contacts__item">
+                  <a
+                    target="_blank"
+                    href="https://t.me/Cryo_Mio"
+                    class="contacts__link"
+                  >
+                    <span>Telegram</span>
+                    <svg
+                      width="78"
+                      height="9"
+                      viewBox="0 0 78 9"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.75 3.58008C0.335786 3.58008 0 3.91586 0 4.33008C0 4.74429 0.335786 5.08008 0.75 5.08008V4.33008V3.58008ZM77.75 4.33008L70.25 -4.91142e-05V8.66021L77.75 4.33008ZM0.75 4.33008V5.08008H71V4.33008V3.58008H0.75V4.33008Z"
+                        fill="#B4AAA6"
+                      /></svg
+                  ></a>
+                </li>
+                <li class="contacts__item">
+                  <a
+                    target="_blank"
+                    href="https://wa.me/79257350939"
+                    class="contacts__link"
+                  >
+                    <span>WhatsApp</span>
+                    <svg
+                      width="78"
+                      height="9"
+                      viewBox="0 0 78 9"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.75 3.58008C0.335786 3.58008 0 3.91586 0 4.33008C0 4.74429 0.335786 5.08008 0.75 5.08008V4.33008V3.58008ZM77.75 4.33008L70.25 -4.91142e-05V8.66021L77.75 4.33008ZM0.75 4.33008V5.08008H71V4.33008V3.58008H0.75V4.33008Z"
+                        fill="#B4AAA6"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__copy">© Cryo Mio (2020).</div>
+        </div>
+      </footer>
+    </div>
+    <div id="popup-peeling" aria-hidden="true" class="popup">
+      <div class="popup__wrapper">
+        <div class="popup__content">
+          <button type="button" data-close class="popup__close"></button>
+          <div class="popup__title">Пилинговые программы</div>
+          <div class="popup__body">
+            <div class="popup__column">
+              <div class="popup__image">
+                <img src="img/popup-image1.webp" alt="Пилинг" />
+              </div>
+              <a
+                target="_blank"
+                href="https://t.me/Cryo_Mio"
+                class="popup__link popup__link--pc"
+                >записаться</a
+              >
+            </div>
+            <ul class="popup__list">
+              <li class="popup__item">
+                Ретиноловый “Желтый пилинг” RETISES CT YELLOW PEEL (Испания) -
+                <b>8 500 ₽</b>
+              </li>
+              <li class="popup__item">
+                BioRePeel CL3, двухфазный пилинг (Италия) - <b>5 000 ₽</b>
+              </li>
+              <li class="popup__item">PRX-T33 (Италия) - <b>5 000 ₽</b></li>
+              <li class="popup__item">
+                Омолаживающая всесезонная пилинг-система FRESH (Италия) -
+                <b>5 000 ₽</b>
+              </li>
+              <li class="popup__item">
+                Двухфазный гидролипидный химический пилинг PEACH PEEL -
+                <b>5 000 ₽</b>
+              </li>
+              <li class="popup__item">
+                Миндальный пилинг Mandelic Acid Exfoliator 40% - <b>4 000 ₽</b>
+              </li>
+              <li class="popup__item">
+                Травяной пилинг Green Peek - <b>7 500 ₽</b>
+              </li>
+            </ul>
+            <a
+              target="_blank"
+              href="https://t.me/Cryo_Mio"
+              class="popup__link popup__link--mobile"
+              >записаться</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
 
-</head>
+    <div id="popup-depilation" aria-hidden="true" class="popup">
+      <div class="popup__wrapper">
+        <div class="popup__content">
+          <button type="button" data-close class="popup__close"></button>
+          <div class="popup__title">Программы депиляции SKIN’S</div>
+          <div class="popup__body">
+            <div class="popup__column">
+              <div class="popup__image">
+                <img src="img/popup-image2.webp" alt="Депиляция" />
+              </div>
+              <a
+                target="_blank"
+                href="https://t.me/Cryo_Mio"
+                class="popup__link popup__link--pc"
+                >записаться</a
+              >
+            </div>
+            <ul class="popup__list">
+              <li class="popup__item">Бикини тотальное - <b>2 500 ₽</b></li>
+              <li class="popup__item">Ноги полностью - <b>3 500 ₽</b></li>
+              <li class="popup__item">
+                Ноги частично (голени/бедра, включая колени) - <b>2 000 ₽</b>
+              </li>
+              <li class="popup__item">Руки полностью - <b>1 500 ₽</b></li>
+              <li class="popup__item">Подмышечные впадины - <b>700 ₽</b></li>
+              <li class="popup__item">
+                Лицо (зона над верхней губой/подбородок) - <b>500 ₽</b>
+              </li>
+            </ul>
+            <a
+              target="_blank"
+              href="https://t.me/Cryo_Mio"
+              class="popup__link popup__link--mobile"
+              >записаться</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
 
-<body>
-	<div class="wrapper">
-		<header data-lp class="header">
-			<div class="header__container">
-				<a data-goto-header data-goto=".wrapper" href="#" class="header__logo">
-					<img src="img/logo.svg" alt="Логотип Cryo Mio">
-				</a>
-				<nav class="header__menu menu">
-					<ul class="menu__list">
-						<li class="menu__item"><a data-goto-header data-goto=".about" href="#" class="menu__link">О нас</a></li>
-						<li class="menu__item"><a data-goto-header data-goto=".program" href="#" class="menu__link">Программы</a></li>
-						<li class="menu__item"><a data-goto-header data-goto=".offer" href="#" class="menu__link">Акции</a></li>
-						<li class="menu__item"><a data-goto-header data-goto=".contacts" href="#" class="menu__link">Контакты</a></li>
-					</ul>
-				</nav>
-				<a href="tel:+79257350939" class="header__tel">+7 925 735-09-39</a>
-				<button type="button" class="header__burger burger-menu"><span></span></button>
-			</div>
-		</header>
-		<main>
-			<section class="hero">
-				<div class="hero__container">
-					<div class="hero__content">
-						<h1 class="hero__title">Ваш верный спутник на пути <i>к здоровью, красоте и жизненной силе</i>
-						</h1>
-						<div class="hero__text">Салон криотерапии нового поколения в Зеленограде</div>
-						<a target="_blank" href="https://t.me/Cryo_Mio" class="hero__link hero__link--pc">
-							<span>записаться</span>
-							<svg width="79" height="12" viewBox="0 0 79 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M78.0256 5.77344L68.0256 -6.53267e-05V11.5469L78.0256 5.77344ZM0 5.77344L0 6.77344H69.0256V5.77344V4.77344H0L0 5.77344Z" fill="#544238" />
-							</svg>
-						</a>
-					</div>
-					<div class="hero__media">
-						<div class="hero__image">
-							<img src="img/hero-image1.webp" alt="Cryo Mio">
-						</div>
-						<div class="hero__image">
-							<img src="img/hero-image2.webp" alt="Cryo Mio">
-						</div>
-						<div class="hero__image">
-							<img src="img/hero-image3.webp" alt="Cryo Mio">
-						</div>
-					</div>
-					<a target="_blank" href="https://t.me/Cryo_Mio" class="hero__link hero__link--mobile">
-						<span>записаться</span>
-						<svg width="79" height="12" viewBox="0 0 79 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M78.0256 5.77344L68.0256 -6.53267e-05V11.5469L78.0256 5.77344ZM0 5.77344L0 6.77344H69.0256V5.77344V4.77344H0L0 5.77344Z" fill="#544238" />
-						</svg>
-					</a>
-				</div>
-			</section>
-			<section class="about">
-				<div class="about__container">
-					<h2 class="about__title">О НАС</h2>
-					<div class="about__body">
-						<div class="about__items">
-							<div class="about__item about__item--1">
-								<div class="about__heading">Пространство криотерапии и восстановления</div>
-								<div class="about__desc">
-									<p>Мы используем естественный потенциал организма, сочетая силу холода и современные
-										методики ухода для здоровья и красоты.</p>
-								</div>
-							</div>
-							<div class="about__item about__item--2">
-								<div class="about__caption">ФИЛОСОФИЯ</div>
-								<div class="about__text">
-									<p>Для нас криотерапия — это не стресс, а комфортный ритуал заботы о себе.</p>
-									<p>Наша цель — сохранять и приумножать здоровье и красоту.</p>
-								</div>
-							</div>
-							<div class="about__item about__item--3">
-								<div class="about__caption">АТМОСФЕРА</div>
-								<div class="about__text">
-									<p>Cryo Mio — лёгкое и дружелюбное пространство.</p>
-									<p>Мы создаём среду, где можно расслабиться, восстановиться и уделить время себе.
-									</p>
-								</div>
-							</div>
-							<div class="about__item about__item--4">
-								<div class="about__caption">ОБОРУДОВАНИЕ</div>
-								<div class="about__text">
-									<p>Студия оснащена современным оборудованием премиального уровня.</p>
-									<p>Открытая криокапсула обеспечивает комфорт без ощущения замкнутого пространства.
-									</p>
-									<p>В работе мы используем профессиональную космецевтику, созданную
-										врачами-экспертами.</p>
-								</div>
-							</div>
-						</div>
-						<div class="about__block">
-							<div class="about__slider swiper">
-								<div class="about__wrapper swiper-wrapper">
-									<div class="about__slide swiper-slide">
-										<picture>
-											<source srcset="img/slider1.webp" media="(max-width: 767px)">
-											<img src="img/about-image1.webp" alt="Cryo Mio">
-										</picture>
-									</div>
-									<div class="about__slide swiper-slide">
-										<picture>
-											<source srcset="img/slider2.webp" media="(max-width: 767px)">
-											<img src="img/about-image2.webp" alt="Cryo Mio">
-										</picture>
-									</div>
-									<div class="about__slide swiper-slide">
-										<picture>
-											<source srcset="img/slider3.webp" media="(max-width: 767px)">
-											<img src="img/about-image3.webp" alt="Cryo Mio">
-										</picture>
-									</div>
-									<div class="about__slide swiper-slide">
-										<picture>
-											<source srcset="img/slider4.webp" media="(max-width: 767px)">
-											<img src="img/about-image4.webp" alt="Cryo Mio">
-										</picture>
-									</div>
-									<div class="about__slide swiper-slide">
-										<picture>
-											<source srcset="img/slider5.webp" media="(max-width: 767px)">
-											<img src="img/about-image5.webp" alt="Cryo Mio">
-										</picture>
-									</div>
-								</div>
-							</div>
-							<button type="button" class="about__prev swiper-button-prev"></button>
-							<button type="button" class="about__next swiper-button-next"></button>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="offer">
-				<div class="offer__container">
-					<h2 class="offer__title">СПЕЦПРЕДЛОЖЕНИЕ</h2>
-					<div class="offer__body">
-						<div class="offer__image">
-							<img src="img/offer-image.webp" alt="Электромагнитная стимуляция мышц + RF-лифтинг">
-						</div>
-						<div class="offer__block">
-							<div class="offer__caption">EMSCULPT + RF</div>
-							<div class="offer__text">Электромагнитная стимуляция мышц + RF-лифтинг</div>
-							<ul class="offer__list">
-								<li class="offer__item">30 минут</li>
-								<li class="offer__item">укрепление мышц и подтяжка кожи</li>
-								<li class="offer__item">быстрый видимый результат</li>
-							</ul>
-							<div class="offer__wrap">
-								<div class="offer__old-price">4000 ₽</div>
-								<div class="offer__price">2000 ₽</div>
-							</div>
-						</div>
-					</div>
-					<a target="_blank" href="https://t.me/Cryo_Mio" class="offer__link">
-						<span>записаться</span>
-						<svg width="79" height="12" viewBox="0 0 79 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M78.0256 5.77344L68.0256 -6.53267e-05V11.5469L78.0256 5.77344ZM0 5.77344L0 6.77344H69.0256V5.77344V4.77344H0L0 5.77344Z" fill="#544238" />
-						</svg>
-					</a>
-				</div>
-			</section>
-			<section class="program">
-				<div class="program__container">
-					<h2 class="program__title">НАШИ ПРОГРАММЫ</h2>
-					<div data-tabs class="tabs">
-						<nav data-tabs-titles class="tabs__navigation">
-							<button type="button" class="tabs__title">криотерапия</button>
-							<button type="button" class="tabs__title _tab-active">косметология</button>
-							<button type="button" class="tabs__title">коррекция фигуры</button>
-							<button type="button" class="tabs__title">EMSlim терапия</button>
-						</nav>
-						<div data-tabs-body class="tabs__content">
-							<div class="tabs__body">
-								<div class="tabs__grid">
-									<div class="tabs__column">
-										<div class="tabs__wrap">
-											<div class="tabs__image tabs__image--mobile">
-												<img src="img/tabs-image2.webp" alt="Cryo Mio">
-											</div>
-											<div class="tabs__caption">ОБЩАЯ КРИОТЕРАПИЯ - сеанс 3 мин</div>
-											<div class="tabs__items">
-												<div class="tabs__item">
-													<div class="tabs__text">1 ознакомительная процедура</div>
-													<div class="tabs__price">2 500 ₽</div>
-												</div>
-												<div class="tabs__item">
-													<div class="tabs__text">Абонимент - 5 процедур</div>
-													<div class="tabs__price">11 500 ₽</div>
-												</div>
-												<div class="tabs__item">
-													<div class="tabs__text">Абонимент - 10 процедур</div>
-													<div class="tabs__price">20 000 ₽</div>
-												</div>
-												<div class="tabs__item">
-													<div class="tabs__text">Абонимент - 20 процедур</div>
-													<div class="tabs__price">36 000 ₽</div>
-												</div>
-											</div>
-										</div>
-										<div class="tabs__wrap">
-											<div class="tabs__caption">ЛОКАЛЬНАЯ КРИОТЕРАПИЯ</div>
-											<div class="tabs__items">
-												<div class="tabs__item">
-													<div class="tabs__text">Криомассаж кожи головы</div>
-													<div class="tabs__price">1 500 ₽</div>
-												</div>
-												<div class="tabs__item">
-													<div class="tabs__text">Криомассаж лица</div>
-													<div class="tabs__price">2 000 ₽</div>
-												</div>
-												<div class="tabs__item">
-													<div class="tabs__text">Криомассаж лица с уходом</div>
-													<div class="tabs__price">2 500 ₽</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="tabs__column">
-										<div class="tabs__wrap">
-											<div class="tabs__image tabs__image--pc">
-												<img src="img/tabs-image2.webp" alt="Cryo Mio">
-											</div>
-											<div class="tabs__desc">
-												<p>Имеются противопоказания. </p>
-												<p>Необходима предварительная консультация специалиста</p>
-											</div>
-										</div>
+    <div id="popup-massage" aria-hidden="true" class="popup">
+      <div class="popup__wrapper">
+        <div class="popup__content">
+          <button type="button" data-close class="popup__close"></button>
+          <div class="popup__title">Массажные программы для лица</div>
+          <div class="popup__body">
+            <div class="popup__column">
+              <div class="popup__image">
+                <img src="img/popup-image3.webp" alt="Массаж" />
+              </div>
+              <a
+                target="_blank"
+                href="https://t.me/Cryo_Mio"
+                class="popup__link popup__link--pc"
+                >записаться</a
+              >
+            </div>
+            <ul class="popup__list">
+              <li class="popup__item">Массаж лица - 60 мин - <b>4 000 ₽</b></li>
+              <li class="popup__item">
+                Биомеханическая стимуляция лица (БМС) - 60 мин - <b>3 500 ₽</b>
+              </li>
+              <li class="popup__item">
+                Буккальный массаж с альгинатной маской - <b>4 500 ₽</b>
+              </li>
+              <li class="popup__item">
+                Миофасциальный массаж с горящим компрессом - 60 мин -
+                <b>4 500 ₽</b>
+              </li>
+            </ul>
+            <a
+              target="_blank"
+              href="https://t.me/Cryo_Mio"
+              class="popup__link popup__link--mobile"
+              >записаться</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
 
-									</div>
-								</div>
-							</div>
-							<div class="tabs__body">
-								<div class="tabs__grid">
-									<div class="tabs__column">
-										<div class="tabs__wrap">
-											<div class="tabs__image tabs__image--mobile">
-												<img src="img/tabs-image1.webp" alt="Cryo Mio">
-											</div>
-											<div class="tabs__caption">ОЧИЩЕНИЕ И ОБНОВЛЕНИЕ</div>
-											<div class="tabs__items">
-												<div class="tabs__item">
-													<div class="tabs__text">Ультразвуковая чистка лица</div>
-													<div class="tabs__price">3 000 ₽</div>
-												</div>
-												<div class="tabs__item">
-													<div class="tabs__text">Вакуумный гидро-пилинг</div>
-													<div class="tabs__price">5 000 ₽</div>
-												</div>
-												<div class="tabs__item">
-													<div class="tabs__text">Гальваническая чистка лица</div>
-													<div class="tabs__price">3 000 ₽</div>
-												</div>
-												<div class="tabs__item">
-													<div class="tabs__text">Комбинированная чистка лица</div>
-													<div class="tabs__price">6 000 ₽</div>
-												</div>
-												<div class="tabs__item">
-													<div class="tabs__text">Мужская комбинированная чистка лица</div>
-													<div class="tabs__price">7 000 ₽</div>
-												</div>
-												<div class="tabs__item">
-													<div class="tabs__text">Дерматологическая чистка лица</div>
-													<div class="tabs__price">7 000 ₽</div>
-												</div>
-												<a href="#" data-popup="#popup-peeling" class="tabs__item tabs__item--grey">
-													<div class="tabs__text">Пилинговые программы</div>
-													<div class="tabs__price">от 4 000 ₽ ▸</div>
-												</a>
-											</div>
-										</div>
-										<div class="tabs__wrap">
-											<div class="tabs__caption">УХОД И ВОССТАНОВЛЕНИЕ</div>
-											<div class="tabs__items">
-												<div class="tabs__item">
-													<div class="tabs__text">Альгитнатная маска по типу кожи</div>
-													<div class="tabs__price">1 000 ₽</div>
-												</div>
-												<div class="tabs__item">
-													<div class="tabs__text">Карбокситерапия</div>
-													<div class="tabs__price">3 000 ₽</div>
-												</div>
-												<a href="#" data-popup="#popup-depilation" class="tabs__item tabs__item--grey">
-													<div class="tabs__text">Программы депиляции SKIN’S </div>
-													<div class="tabs__price">от 500 ₽ ▸</div>
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="tabs__column">
-										<div class="tabs__wrap">
-											<div class="tabs__caption">ЛИФТИНГ И МАССАЖ ЛИЦА</div>
-											<div class="tabs__items">
-												<a href="#" data-popup="#popup-massage" class="tabs__item tabs__item--grey">
-													<div class="tabs__text">Массажные программы для лица</div>
-													<div class="tabs__price">от 3 500 ₽ ▸</div>
-												</a>
-												<div class="tabs__item">
-													<div class="tabs__text">Микротоковая терапия</div>
-													<div class="tabs__price">3 000 ₽</div>
-												</div>
-												<div class="tabs__item">
-													<div class="tabs__text">Миостимуляция</div>
-													<div class="tabs__price">3 000 ₽</div>
-												</div>
-											</div>
-										</div>
-										<div class="tabs__image tabs__image--pc">
-											<img src="img/tabs-image1.webp" alt="Cryo Mio">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tabs__body">
-								<div class="tabs__grid">
-									<div class="tabs__column">
-										<div class="tabs__wrap">
-											<div class="tabs__image tabs__image--mobile">
-												<img src="img/tabs-image3.webp" alt="Cryo Mio">
-											</div>
-											<div class="tabs__caption">EMSCULPT</div>
-											<div class="tabs__items">
-												<div class="tabs__item">
-													<div class="tabs__text">2 зоны - 60 мин</div>
-													<div class="tabs__price">6 000 ₽</div>
-												</div>
-											</div>
-										</div>
-										<div class="tabs__wrap">
-											<div class="tabs__caption">EMSCULPT + RF – ЭЛЕКТРОМАГНИТНАЯ СТИМУЛЯЦИЯ МЫШЦ
-												+ RF ЛИФТИНГ</div>
-											<div class="tabs__items">
-												<div class="tabs__item">
-													<div class="tabs__text">Один сеанс - 30 мин</div>
-													<div class="tabs__price">2 000 ₽</div>
-												</div>
-												<div class="tabs__item">
-													<div class="tabs__text">Абонимент - 5 сеансов</div>
-													<div class="tabs__price">17 500 ₽</div>
-												</div>
-												<div class="tabs__item">
-													<div class="tabs__text">Абонимент - 10 сеансов</div>
-													<div class="tabs__price">30 000₽</div>
-												</div>
-											</div>
-										</div>
-										<div class="tabs__wrap">
-											<div class="tabs__caption">SLMSPHERES – КОМПРЕССИОННО-ВИБРАЦИОННЫЙ МАССАЖ СФЕРАМИ</div>
-											<div class="tabs__items">
-												<div class="tabs__item">
-													<div class="tabs__text">Лимфодренаж - 30 мин</div>
-													<div class="tabs__price">2 000 ₽</div>
-												</div>
-												<div class="tabs__item">
-													<div class="tabs__text">Один сеанс - 60 мин</div>
-													<div class="tabs__price">3 500 ₽</div>
-												</div>
-												<div class="tabs__item">
-													<div class="tabs__text">Абонимент - 10 сеансов по 60 мин</div>
-													<div class="tabs__price">31 000 ₽</div>
-												</div>
-											</div>
-										</div>
-										<div class="tabs__wrap">
-											<div class="tabs__caption">КОМБИНИРОВАННАЯ ПРОГРАММА ДЛЯ ТЕЛА</div>
-											<div class="tabs__items">
-												<div class="tabs__item">
-													<div class="tabs__text">Slimspheres + EMSCULPT - 90 мин</div>
-													<div class="tabs__price">6 500 ₽</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="tabs__image tabs__image--pc">
-										<img src="img/tabs-image3.webp" alt="Cryo Mio">
-									</div>
-								</div>
-							</div>
-							<div class="tabs__body">
-								<div class="tabs__grid">
-									<div class="tabs__column">
-										<div class="tabs__wrap">
-											<div class="tabs__image tabs__image--mobile">
-												<img src="img/tabs-image4.webp" alt="Cryo Mio">
-											</div>
-											<div class="tabs__caption">ИНТЕНСИВНАЯ ТЕРАПИЯ НА ЭЛЕКТРОМАГНИТНОМ КРЕСЛЕ
-												EMSLIM</div>
-											<div class="tabs__items">
-												<div class="tabs__item">
-													<div class="tabs__text">Укрепление мышц тазового дна</div>
-													<div class="tabs__price">2 000 ₽</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="tabs__image tabs__image--pc">
-										<img src="img/tabs-image4.webp" alt="Cryo Mio">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<a target="_blank" href="https://t.me/Cryo_Mio" class="program__link">
-						<span>записаться</span>
-						<svg width="79" height="12" viewBox="0 0 79 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M78.0256 5.77344L68.0256 -6.53267e-05V11.5469L78.0256 5.77344ZM0 5.77344L0 6.77344H69.0256V5.77344V4.77344H0L0 5.77344Z" fill="#544238" />
-						</svg>
-					</a>
-				</div>
-			</section>
-			<section class="contacts">
-				<div class="contacts__container">
-					<h2 class="contacts__title">КОНТАКТЫ</h2>
-					<div class="contacts__body">
-						<div class="contacts__map">
-							<iframe loading="lazy" src="https://yandex.ru/map-widget/v1/?um=constructor%3Abf4fb761b01e329d64d0443b567349c617b053e52f27984590efe8905ee3183f&amp;source=constructor" width="352" height="352"></iframe>
-						</div>
-						<div class="contacts__content">
-							<div class="contacts__box">
-								<div class="contacts__icon">
-									<img src="img/contacts-icon1.webp" alt="Иконка">
-								</div>
-								<div class="contacts__text">г. Зеленоград, корп. 2303</div>
-							</div>
-							<div class="contacts__box">
-								<div class="contacts__icon">
-									<img src="img/contacts-icon2.webp" alt="Иконка">
-								</div>
-								<div class="contacts__text">
-									<p>— вт–пт - 10:00-20:00</p>
-									<p>— сб - 10:00-19:00</p>
-									<p>— вс, пн — по записи</p>
-								</div>
-							</div>
-							<div class="contacts__box">
-								<div class="contacts__icon">
-									<img src="img/contacts-icon3.webp" alt="Иконка">
-								</div>
-								<div class="contacts__text">
-									<a href="tel:+79257350939">+ 7 925 735-09-39</a>
-									<a href="mailto:cryomio@gmail.com">cryomio@gmail.com</a>
-								</div>
-							</div>
-						</div>
-						<ul class="contacts__social">
-							<li class="contacts__item">
-								<a target="_blank" href="https://yandex.ru/maps/org/cryo_mio/121485707522?si=j0q9dxq0hcntdvn6m9aymjugf0" class="contacts__link">
-									<span>YandexMap</span>
-									<svg width="78" height="9" viewBox="0 0 78 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M0.75 3.58008C0.335786 3.58008 0 3.91586 0 4.33008C0 4.74429 0.335786 5.08008 0.75 5.08008V4.33008V3.58008ZM77.75 4.33008L70.25 -4.91142e-05V8.66021L77.75 4.33008ZM0.75 4.33008V5.08008H71V4.33008V3.58008H0.75V4.33008Z" fill="#B4AAA6" />
-									</svg>
-								</a>
-							</li>
-							<li class="contacts__item">
-								<a target="_blank" href="https://t.me/Cryo_Mio" class="contacts__link">
-									<span>Telegram</span>
-									<svg width="78" height="9" viewBox="0 0 78 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M0.75 3.58008C0.335786 3.58008 0 3.91586 0 4.33008C0 4.74429 0.335786 5.08008 0.75 5.08008V4.33008V3.58008ZM77.75 4.33008L70.25 -4.91142e-05V8.66021L77.75 4.33008ZM0.75 4.33008V5.08008H71V4.33008V3.58008H0.75V4.33008Z" fill="#B4AAA6" />
-									</svg></a>
-							</li>
-							<li class="contacts__item">
-								<a target="_blank" href="https://wa.me/79257350939" class="contacts__link">
-									<span>WhatsApp</span>
-									<svg width="78" height="9" viewBox="0 0 78 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M0.75 3.58008C0.335786 3.58008 0 3.91586 0 4.33008C0 4.74429 0.335786 5.08008 0.75 5.08008V4.33008V3.58008ZM77.75 4.33008L70.25 -4.91142e-05V8.66021L77.75 4.33008ZM0.75 4.33008V5.08008H71V4.33008V3.58008H0.75V4.33008Z" fill="#B4AAA6" />
-									</svg>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</section>
-		</main>
-		<footer class="footer">
-			<div class="footer__container">
-				<div class="footer__copy">© Cryo Mio (2020).</div>
-			</div>
-		</footer>
-	</div>
-	<div id="popup-peeling" aria-hidden="true" class="popup">
-		<div class="popup__wrapper">
-			<div class="popup__content">
-				<button type="button" data-close class="popup__close"></button>
-				<div class="popup__title">Пилинговые программы</div>
-				<div class="popup__body">
-					<div class="popup__column">
-						<div class="popup__image">
-							<img src="img/popup-image1.webp" alt="Пилинг">
-						</div>
-						<a target="_blank" href="https://t.me/Cryo_Mio" class="popup__link popup__link--pc">записаться</a>
-					</div>
-					<ul class="popup__list">
-						<li class="popup__item">Ретиноловый “Желтый пилинг” RETISES CT YELLOW PEEL (Испания) - <b>8 500 ₽</b></li>
-						<li class="popup__item">BioRePeel CL3, двухфазный пилинг (Италия) - <b>5 000 ₽</b></li>
-						<li class="popup__item">PRX-T33 (Италия) - <b>5 000 ₽</b></li>
-						<li class="popup__item">Омолаживающая всесезонная пилинг-система FRESH (Италия) - <b>5 000 ₽</b></li>
-						<li class="popup__item">Двухфазный гидролипидный химический пилинг PEACH PEEL - <b>5 000 ₽</b></li>
-						<li class="popup__item">Миндальный пилинг Mandelic Acid Exfoliator 40% - <b>4 000 ₽</b></li>
-						<li class="popup__item">Травяной пилинг Green Peek - <b>7 500 ₽</b></li>
-					</ul>
-					<a target="_blank" href="https://t.me/Cryo_Mio" class="popup__link popup__link--mobile">записаться</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="popup-depilation" aria-hidden="true" class="popup">
-		<div class="popup__wrapper">
-			<div class="popup__content">
-				<button type="button" data-close class="popup__close"></button>
-				<div class="popup__title">Программы депиляции SKIN’S</div>
-				<div class="popup__body">
-					<div class="popup__column">
-						<div class="popup__image">
-							<img src="img/popup-image2.webp" alt="Депиляция">
-						</div>
-						<a target="_blank" href="https://t.me/Cryo_Mio" class="popup__link popup__link--pc">записаться</a>
-					</div>
-					<ul class="popup__list">
-						<li class="popup__item">Бикини тотальное - <b>2 500 ₽</b></li>
-						<li class="popup__item">Ноги полностью - <b>3 500 ₽</b></li>
-						<li class="popup__item">Ноги частично (голени/бедра, включая колени) - <b>2 000 ₽</b></li>
-						<li class="popup__item">Руки полностью - <b>1 500 ₽</b></li>
-						<li class="popup__item">Подмышечные впадины - <b>700 ₽</b></li>
-						<li class="popup__item">Лицо (зона над верхней губой/подбородок) - <b>500 ₽</b></li>
-					</ul>
-					<a target="_blank" href="https://t.me/Cryo_Mio" class="popup__link popup__link--mobile">записаться</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="popup-massage" aria-hidden="true" class="popup">
-		<div class="popup__wrapper">
-			<div class="popup__content">
-				<button type="button" data-close class="popup__close"></button>
-				<div class="popup__title">Массажные программы для лица</div>
-				<div class="popup__body">
-					<div class="popup__column">
-						<div class="popup__image">
-							<img src="img/popup-image3.webp" alt="Массаж">
-						</div>
-						<a target="_blank" href="https://t.me/Cryo_Mio" class="popup__link popup__link--pc">записаться</a>
-					</div>
-					<ul class="popup__list">
-						<li class="popup__item">Массаж лица - 60 мин - <b>4 000 ₽</b></li>
-						<li class="popup__item">Биомеханическая стимуляция лица (БМС) - 60 мин - <b>3 500 ₽</b></li>
-						<li class="popup__item">Буккальный массаж с альгинатной маской - <b>4 500 ₽</b></li>
-						<li class="popup__item">Миофасциальный массаж с горящим компрессом - 60 мин - <b>4 500 ₽</b></li>
-					</ul>
-					<a target="_blank" href="https://t.me/Cryo_Mio" class="popup__link popup__link--mobile">записаться</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<script src="js/app.min.js?_v=20260222141526"></script>
-</body>
-
+    <script src="js/app.min.js?_v=20260222141526"></script>
+  </body>
 </html>
